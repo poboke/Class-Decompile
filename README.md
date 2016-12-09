@@ -18,7 +18,7 @@ Class Decompile is a python script for Hopper Disassembler. This script can expo
 ![image](https://github.com/poboke/Class-Decompile/raw/master/Screenshots/decompile_choose_type.png)
 
 5. If you choose <kbd>Decompile One Class</kbd>, the following box will appear:
-![image](https://github.com/poboke/Class-Decompile/raw/master/Screenshots/decompile_input_class_name.png)
+![image](https://github.com/poboke/Class-Decompile/raw/master/Screenshots/decompile_input_class_name.png)  
 Enter a class name, click the <kbd>OK</kbd> button to decompile that class.
 
 6. The decompiled pseudo-code stored in the `~/ClassDecompiles` directory.
