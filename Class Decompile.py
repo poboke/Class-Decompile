@@ -129,11 +129,14 @@ def start_decompile(input_class_name=None):
         del codes
         gc.collect()
 
+    os.system('open "%s"'%(path))
     print 'Done!'
 
 
 document = Document.getCurrentDocument()
 segment = document.getSegmentByName('__TEXT')
+if not segment:
+    segment = document.getSegmentsList()[0]
 
 app_name = document.getExecutableFilePath().split('/')[-1]
 path = os.path.expanduser('~/ClassDecompiles/' + app_name)
